@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { LimitedAccessComponent } from './limited-access/limited-access.component';
 import { NotAuthorizedComponent } from './not-authorized/not-authorized.component';
 import { ProductComponent } from './product/product.component';
+import { EditProductComponent } from './edit-product/edit-product.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProductComponent } from './product/product.component';
     HomeComponent,
     LimitedAccessComponent,
     NotAuthorizedComponent,
-    ProductComponent
+    ProductComponent,
+    EditProductComponent
   ],
   imports: [
     BrowserModule,
